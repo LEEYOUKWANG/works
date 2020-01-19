@@ -1,0 +1,13 @@
+## chap.06
+
+install.packages(dplyr)
+library(dplyr)
+
+exam <- read.csv("csv_exam.csv")
+
+View(exam)
+exam
+
+exam %>% filter(class == 1)
+View (exam)
+library(ggplot2)
